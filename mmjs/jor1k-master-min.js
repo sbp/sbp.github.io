@@ -830,7 +830,7 @@ var message = require('../messagehandler');
 var Colors = new Array(
     // standard colors
     "#333333", "#DD3333", "#33DD33", "#DDDD33",
-    "#3333DD", "#DD33DD", "#33DDDD", "#E0DDD0",
+    "#3333DD", "#DD33DD", "#E0DDD0", "#E0DDD0",
     // brighter colors
     "#555555", "#FF5555", "#55FF55", "#FFFF55",
     "#5555FF", "#FF55FF", "#55FFFF", "#FFFFFF",

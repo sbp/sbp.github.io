@@ -1,8 +1,8 @@
 <!doctype html>
-<title>Metamath RISC</title>
+<title>MetamathJS</title>
 <style>
-html { background: #333; }
-    .terminal {
+html { color: #eee8e0; background: #333; }
+.terminal {
     margin: 36px auto;
     border: 0px solid black;
     font-family: "Lucida Console", Monaco, monospace;
@@ -10,7 +10,9 @@ html { background: #333; }
     color: #eee8e0;
     background: #333;
     border-collapse: collapse;
-    }
+}
+p { font-size: 9px; text-align: center; margin: 36px auto; }
+p, a { color: #eee8e0; background: #333; }
 </style>
 
 <table id="tty" class="terminal" cellpadding="0" cellspacing="0">
@@ -39,3 +41,6 @@ jor1kgui = new Jor1k(
     });
 
 </script>
+
+<p>This is <a href="http://us.metamath.org/">Metamath</a> on <a
+href="https://github.com/s-macke/jor1k">OpenRISC</a> in JS.</p>
