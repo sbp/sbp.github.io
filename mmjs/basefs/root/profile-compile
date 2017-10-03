@@ -1,0 +1,2 @@
+export TERM=linux
+cd ~/metamath && screen -s ~/metamath/metamath
